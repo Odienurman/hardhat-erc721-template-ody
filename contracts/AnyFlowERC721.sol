@@ -17,7 +17,7 @@ contract AnyFlowERC721 is ERC721, Ownable {
      * @dev Base URI for computing {tokenURI}. If set, the resulting URI for each
      * token will be the concatenation of the `baseURI` and the `tokenId`.
      */
-    function _baseURI() view virtual returns (string memory) {
+    function _baseURI() internal view override returns (string memory) {
         return "";
     }
 
@@ -31,7 +31,7 @@ contract AnyFlowERC721 is ERC721, Ownable {
      *
      * Emits a {Transfer} event.
      */
-    function mint(address to, uint256 tokenId) onlyOwner {
+    function mint(address to, uint256 tokenId) public onlyOwner {
         _safeMint(to, tokenId);
     }
 
