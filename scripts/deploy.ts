@@ -1,7 +1,7 @@
 import hre from "hardhat";
 
 export async function main() {
-    console.log('Deploying AnyFlowERC721...')
+    console.log('Deploying AnyFlowERC721...');
 
     const args = [
         '0xA71a71A71a71a71A71a71a71a71A71a71A71A71a',   // _initialOwner
@@ -15,3 +15,4 @@ export async function main() {
 }
 
 main()
+    .then(() => process.exit(0));
