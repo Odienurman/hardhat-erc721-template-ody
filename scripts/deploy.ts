@@ -9,11 +9,9 @@ export async function main() {
         'AF',           // _symbol
     ] as const;
 
-    const { deploymentTransaction } = await hre.viem.sendDeploymentTransaction("AnyFlowERC721", args);
+    const contract = await hre.viem.deployContract("AnyFlowERC721", args);
 
-    console.log(`Deployment transaction for AnyFlowERC721 broadcasted... tx: ${deploymentTransaction.hash}`);
-
-    // With AnyFlow you do not need to wait for the transaction to be mined
+    console.log(`Contract AnyFlowERC721 deployed to: ${contract.address}`);
 }
 
 main()
