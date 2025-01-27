@@ -1,8 +1,22 @@
 {
-    "name": "My NFT",
-    "description": "...",
-    "image": "https://assets.com/img.png",
-    "creator": "AnyFlow",
-    "external_url": "https://anyflow.pro",
+    "name": "anyflow monkey",
+    "description": "NFT Name: AnyFlow Monkey 🐒💫
+
+Description:
+Unleash the energy of creativity with AnyFlow Monkey—a unique digital collectible that embodies the spirit of adaptability and flow. This vibrant NFT features a charismatic monkey in a sleek, futuristic outfit, effortlessly gliding through a neon-lit jungle with a playful smirk. Each detail, from its expressive eyes to the colorful streaks in its fur, reflects its untamed, imaginative nature.
+
+The AnyFlow Monkey is more than just art—it’s a symbol of resilience, adaptability, and the power to thrive in any environment. Perfect for collectors, dreamers, and innovators who embrace the unknown and celebrate the journey.
+
+Attributes:
+
+Background: Cyber Jungle Glow 🌌
+Outfit: Futuristic Streetwear 🌟
+Accessory: Floating Energy Orb 🔮
+Mood: Chill & Playful 😎
+Rarity Level: Legendary 🌠
+Own your flow. Collect the AnyFlow Monkey today and join the movement of limitless possibilities!",
+    "image": "https://anyflow-monkey.testnet.nfts2.me/",
+    "creator": "0xa5ef651caf0279d13459d801f6666c6e662426f1",
+    "external_url": "https://anyflow-monkey.testnet.nfts2.me/",
     "attributes": []
 }
